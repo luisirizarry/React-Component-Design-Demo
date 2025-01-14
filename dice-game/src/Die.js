@@ -3,10 +3,10 @@ import "./Die.css";
 
 /** Single die . */
 
-function Die(props) {
+const Die = ({val}) => {
   return (
     <div className="Die">
-      {props.value}
+      {val}
     </div>
   )
 }
